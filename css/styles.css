@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightblue;
+  text-align: center;
+}
+
+#main-div {
+  width: 40vw;
+  height: auto;
+  border: 1px solid black;
+  margin: 100px auto 100px;
+  background-color: white;
+  opacity: 90%;
+}
+
+h1 {
+  font-weight: lighter;
+  margin-top: 15px;
+}
+
+#text-input {
+  width: 90%;
+  height: 50px;
+  border: 1px solid rgb(44, 44, 44);
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 12px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  width: 120px;
+  height: 55px;
+  background-color: rgb(187, 224, 236);
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+#last-msg {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+#no-input {
+  background-color: rgb(187, 41, 41);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 26px;
+  font-family: "Times New Roman", Times, serif;
+  display: none;
+}
